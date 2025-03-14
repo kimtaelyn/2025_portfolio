@@ -1,0 +1,161 @@
+Video{border-radius:80px;}
+
+
+
+.startPoint{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background: #CFEFFF;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px #CFEFFF;
+}
+
+
+.startPoint:hover{
+    background: #ebebeb; 
+}
+
+
+
+
+#section01{
+   background:url(../img2/section1/section1.png.png);
+   height: 26812px;
+}
+
+
+
+#section01 .s1_title{
+    width: 200px;
+    height: 200px;
+    opacity:0;
+    position: absolute;
+    left: 193px;
+    top: 241px;
+
+    transform:translateX(100px);
+    transition: all 1s;
+}
+
+
+#section01 .s1_title.on{
+    transform:none;
+    opacity:1;
+ 
+}
+
+
+
+#section01 .zombie1{
+    width: 200px;
+    height: 200px;
+    opacity:0;
+    position: absolute;
+    left: 494px;
+    top: 919px;
+
+    transform: translate(20px,20px);
+    transition: all 1s;
+}
+
+
+#section01 .zombie1.on{
+    transform:none;
+    opacity:1;
+ 
+}
+
+
+
+
+#section01 .zombie2{
+    width: 200px;
+    height: 200px;
+    opacity:0;
+    position: absolute;
+    left: 138px;
+    top: 1859px;
+
+    transform:translate(20px,10px);
+    transition: all 1s;
+}
+
+
+#section01 .zombie2.on{
+    transform:none;
+    opacity:1;
+ 
+}
+
+
+
+
+
+
+
+
+#section01 .zombie3{
+    width: 200px;
+    height: 200px;
+    opacity:0;
+    position: absolute;
+    left: 719px;
+    top: 2099x;
+
+    transform:scale(2,2);
+    transition: all 1s;
+}
+
+
+#section01 .zombie3.on{
+    transform:none;
+    opacity:1;
+ 
+}
+
+
+
+
+
+#section01 .zombie4{
+    width: 200px;
+    height: 200px;
+    opacity:0;
+    position: absolute;
+    left: 138px;
+    top: 526px;
+
+    transform:skew(30deg,30deg);
+    transition: all 1s;
+}
+
+
+#section01 .zombie4.on{
+    transform:none;
+    opacity:1;
+ 
+}
+
+
+
+#section02{
+    background:url(../img2/section2/section2.png);
+    height: 27813px;
+
+}
+
+#section02{
+    background:url(../img3/section3/section2.png);
+    height: 11204px;
+
+}
