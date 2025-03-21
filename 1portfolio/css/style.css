@@ -388,7 +388,7 @@ Video{border-radius:80px;}
     opacity:0;
     position: absolute;
     left: 54px;
-    top: 1517px;
+    top: 1607px;
 
     transform:translateX(20px);
     transition: all 1s;
@@ -562,7 +562,7 @@ Video{border-radius:80px;}
     height: 200px;
     position: absolute;
     left: 1159px;
-    top: 3316px;
+    top: 3456px;
     z-index: 1;
 
     opacity: 0; 
