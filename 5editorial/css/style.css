@@ -1,6 +1,0 @@
-
-body {background:#1d1d1d;}
-* {box-sizing: border-box;}
-
-body .sec0 {opacity:0;transition:.2s all;}
-body.on .sec0 {opacity: 1;}
